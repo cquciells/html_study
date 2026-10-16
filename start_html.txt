@@ -3,4 +3,4 @@ git config --global user.email "naastiaa894523@gmail.com"
 
 Вступ до HTML
 HTML - HyperText Markup Language - гіпертекстова
-мова розмітки
+мова розмітки.
