@@ -1,0 +1,33 @@
+*:not(.selector-table):not(.selector-table th):not(.selector-table td):not(.link) {
+    color: #333;
+}
+
+img {
+    width: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+    border: solid 1px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.selector-table {
+    border:rgb(56, 53, 53) solid 1px;
+    border-collapse: collapse;
+}
+
+.selector-table th, .selector-table td {
+    border:rgb(56, 53, 53) solid 1px;
+    color:cornflowerblue;
+    padding: 5px;
+}
+
+.link {
+    color: cornflowerblue;
+}
