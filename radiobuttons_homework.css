@@ -1,0 +1,19 @@
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+label { 
+    display: block; 
+    padding: 10px; 
+    margin: 5px; 
+    border: 2px solid #ccc; 
+    width: 200px;
+}
+
+label:has(:checked) { 
+    border-color: rgb(92, 164, 231); 
+}
