@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16pt;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 1.5;
+}
+
+
+.nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16pt;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 1.5;
+}
+
+.display-large {
+    font-size: 41pt;
+    font-weight: 200;
+    font-variation-settings: "wdth" 75;
+}
+
+.display-medium {
+    font-size: 26pt;
+    font-weight: 400;
+}
+
+button {
+    background-color:lemonchiffon;
+    font-size: 16pt;
+    padding: .5em 1em;
+}
+
+button:hover {
+    background-color:bisque;
+}
+
+button:active {
+    background-color:rgb(240, 199, 148);
+}
+
+#agree {
+    margin-right: 1em;
+    transform: scale(2);
+}
+
+#agree ~ label { /* ~ елемент за даним(з тегом label)*/
+    color: rgb(185, 82, 82);
+}
+
+#agree:checked ~ label { 
+    color: rgb(163, 216, 66);
+}
+
+#agree:hover ~ label {
+    color: rgb(148, 228, 0);
+}

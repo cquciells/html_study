@@ -1,0 +1,34 @@
+.table_methodaction, .table_methodaction th, .table_methodaction tr, .table_methodaction td {
+    border: 2px solid rgb(175, 175, 175);
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+.table_methodaction td:nth-child(odd) {
+    text-align: center;
+}
+
+.table_input, .table_input th, .table_input tr, .table_input td {
+    border: 2px solid rgb(175, 175, 175);
+    border-collapse: collapse;
+}
+
+.table_input td:nth-child(odd) {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.table_methodaction th, .table_input th {
+    text-align: center;
+}
+
+table {
+    width: 750px;
+    text-align: justify;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

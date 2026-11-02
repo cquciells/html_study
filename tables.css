@@ -20,3 +20,13 @@
 .product-table td:nth-child(3) {
     text-align: right; /*nth-child - кожен n-й елемент, число будь яке*/
 }
+
+.product-table tbody tr:nth-child(1n) { /*odd - непарні, even - парні елементи*/
+    background-color: #ffeff3;
+}
+.product-table tbody tr:nth-child(2n) {
+    background-color: rgb(233, 255, 231);
+}
+.product-table tbody tr:nth-child(3n) {
+    background-color: rgb(255, 249, 231);
+}

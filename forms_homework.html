@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms_homework.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="raleway-regular">
+    <h1>Елементи форм</h1>
+    <p>
+        <b>&lt;form&gt;</b> - головний контейнер, який об'єднує всі 
+        елементи форми та визначає, куди та яким методом 
+        надсилати дані (action, method).
+    </p>
+    <p>
+        Атрибути action та method у тезі &lt;form&gt; в HTML визначають, куди і 
+        як саме будуть відправлені дані з форми на сервер.
+    </p>
+    <p>
+        <table class="table_methodaction">
+            <tr>
+                <th>Атрибут</th>
+                <th>Опис</th>
+            </tr>
+            <tr>
+                <td>action</td>
+                <td>Визначає URL-адресу, на яку будуть відправлені дані форми <br/>
+                    після її відправки. Якщо атрибут не вказаний, дані будуть відправлені <br/>
+                    на ту ж саму сторінку, на якій знаходиться форма.</td>
+            </tr>
+            <tr>
+                <td>method</td>
+                <td>Визначає HTTP-метод, який буде використаний для відправки даних<br/>
+                    форми. Найпоширеніші значення: "GET" (дані додаються до URL) та "POST" <br/>
+                    (дані надсилаються в тілі запиту).</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <b>&lt;input&gt;</b> - універсальне поле для введення даних. Вигляд і поведінка залежать від атрибута <code>type</code>.
+    </p>
+    <p>
+        <table class="table_input">
+            <tr>
+                <th>Тип</th>
+                <th>Опис</th>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>Звичайний однорядковий текст.</td>
+            </tr>
+            <tr>
+                <td>email, tel, number, date</td>
+                <td>Спеціалізовані поля для пошти, телефону, чисел і дат.</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>Поле для введення пароля (відображається як зірочки).</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>Прапорець для вибору одного або кількох варіантів.</td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>Кнопка для вибору одного варіанту з групи.</td>
+            </tr>
+            <tr>
+                <td>submit, reset, button</td>
+                <td>Кнопки відправки, скидання або звичайна кнопка.</td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>Поле для вибору файлу для завантаження.</td>
+            </tr>
+            <tr>
+                <td>&lt;textarea&gt;</td>
+                <td>Багаторядкове текстове поле для введення великих обсягів тексту.</td>
+            </tr>
+        </table>
+    </p>
+</body>
+</html>
