@@ -1,0 +1,46 @@
+.container {
+    border: 2px solid hotpink;
+    display: flex;
+}
+.h-150 {
+    height: 150px;
+}
+.h-auto{
+    height: auto !important;
+}
+.item{
+    background-color: rgb(245, 187, 219);
+    border: 2px solid rgb(245, 138, 192);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.j-center{
+    justify-content: center;
+}
+.j-evenly{
+    justify-content: space-evenly;
+}
+.j-around{
+    justify-content: space-around;
+}
+.a-center{
+    align-items: center;
+}
+.a-stretch{
+    align-items: stretch;
+}
+.flex-1 {
+    background-color: aliceblue;
+    flex: 1;
+}
+.flex-2 {
+    background-color: rgb(143, 203, 255);
+    flex: 2;
+}
+.flex-3 {
+    background-color: rgb(116, 179, 235);
+    flex: 3;
+}

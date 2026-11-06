@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex2.css">
+    <title>Flex</title>
+</head>
+<body>
+    <h2>Stretch</h2>
+    <p>
+        Режим stretch "витягує" елементи, що вони заповнбвали контейнер. Але це можливо тоді, коли
+        висота дочірніх елементів не є фіксованою, наприклад 100%.
+    </p>
+    <div class="container h-150 j-evenly a-stretch">
+        <div class="item h-auto">1</div>
+        <div class="item h-auto">2</div>
+        <div class="item h-auto">3</div>
+        <div class="item h-auto">4</div>
+    </div>
+
+    <h1>flex - властивість</h1>
+    <p>
+        CSS властивість flex задає "еластичність" (або вагу) елементу. Еластичні елементи витягуються,
+        займаючи весь відведений для нього простір. Але елемнети з різною вагою займають різну
+        долю загального вілного простору (пропорційно до ваги). 
+    </p>
+    <div class="container h-150 j-evenly a-stretch">
+        <div class="item flex-1 h-auto">1</div>
+        <div class="item flex-2 h-auto">2</div>
+        <div class="item flex-3 h-auto">3</div>
+    </div>
+</body>
+</html>
