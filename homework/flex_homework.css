@@ -1,0 +1,43 @@
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+    border: 2px solid hotpink;
+    display: flex;
+    height: 150px;
+    width: 50%;
+}
+.item {
+    background-color: rgb(255, 182, 219);
+    border: 2px solid rgb(255, 83, 183);
+    display: flex;
+    width: 100px;
+}
+
+.a-stretch {
+    align-items: stretch;
+    justify-content: center;
+}
+.a-start {
+    align-items: flex-start;
+    justify-content: center;
+}
+.a-end {
+    align-items: flex-end;
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+    justify-content: center;
+}
+.a-baseline {
+    align-items: baseline;
+    justify-content: center;
+}
+.a-normal {
+    align-items: normal;
+    justify-content: center;
+}
