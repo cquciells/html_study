@@ -1,0 +1,56 @@
+.card{
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 2px rgb(107, 107, 107); /* перше - зсув по горизонталі, друге - по вертикалі, третє - розмір самої тіні, четверте - блюр*/
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.card-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(194, 160, 221);
+}
+.card-headline{
+    font-size: 25px;
+    padding: 10px 10px 0 10px;
+}
+.card-subhead{
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+.card-text{
+    font-size: 15px;
+    padding: 22px 0 0 10px;
+    flex: 1;
+}
+.card-footer{
+    display: flex;
+    justify-content: end;
+    margin: 8px 10px;
+    
+}
+.card-button{
+    background-color: rgb(225, 208, 240);
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 27px;
+}
+.card-button:hover{
+    background-color: rgb(191, 155, 221);
+    border: 0.5px solid transparent;
+}
+.card-button:active{
+    background-color: rgb(163, 122, 197);
+    border: 0.5px solid rgb(151, 112, 184);
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
