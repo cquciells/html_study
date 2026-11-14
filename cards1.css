@@ -1,56 +1,117 @@
-.card{
+.page-header {
+    font-size: 25px;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px 2%;
+    justify-content: center;
+    margin: 10px 10%;
+}
+.card {
     border-radius: 10px;
-    box-shadow: 0 3px 3px 2px rgb(107, 107, 107); /* перше - зсув по горизонталі, друге - по вертикалі, третє - розмір самої тіні, четверте - блюр*/
-    height: 350px;
-    width: 250px;
+    box-shadow: 0 3px 3px 2px #bbb;
     display: flex;
     flex-direction: column;
+    height: 350px;
+    width: 250px;
 }
 .card-image{
     width: 100%;
     height: 50%;
     border-radius: 10px 10px 0 0;
     background-color: rgb(194, 160, 221);
+    overflow: hidden;
 }
-.card-headline{
-    font-size: 25px;
-    padding: 10px 10px 0 10px;
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
-.card-subhead{
-    font-size: 20px;
-    padding: 0 0 0 10px;
+.card-headline, .card-subhead, .card-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
-.card-text{
-    font-size: 15px;
-    padding: 22px 0 0 10px;
+.card-headline {
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.card-subhead {
+    font-size: 16px;
+    background-color: rgb(182, 238, 160);
+    width: 71%;
+    border-radius: 10px;
+}
+.spacer {
     flex: 1;
 }
-.card-footer{
+.card-text {
+    flex: 1;
+    padding-top: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    line-height: 20px;
+    max-height: 40px;
+    color: #f7d050;
+}
+.card-footer {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin: 8px 10px;
-    
 }
-.card-button{
-    background-color: rgb(225, 208, 240);
-    border: 0.5px solid transparent;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 3px;
-    font-size: 27px;
+.card-button {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: x-large;
 }
-.card-button:hover{
-    background-color: rgb(191, 155, 221);
-    border: 0.5px solid transparent;
+.card-button:hover {
+    background-color: #ddd;
 }
-.card-button:active{
-    background-color: rgb(163, 122, 197);
-    border: 0.5px solid rgb(151, 112, 184);
+.card-button:active {
+    border: 2px solid #aaa;
+}
+.card-price {
+    display: flex;
+    flex-direction: column;
+}
+.card-price-discount {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.card-price-old {
+    color: #bebebe;
+    font-size: small;
+    text-decoration: line-through;
+}
+.card-price-actual {
+    color: #e05252;
+    font-size: large;
+    font-weight: 700;
+}
+.card-dicount-percent {
+    background-color: #e05252;
+    border-radius: 1em;
+    color: snow;
+    font-size: small;
+    font-weight: 600;
+    padding: 1px 3px;
 }
 
-.raleway-regular {
-  font-family: "Raleway", sans-serif;
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
